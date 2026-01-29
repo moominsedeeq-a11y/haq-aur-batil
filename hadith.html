@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="UTF-8">
+  <title>احادیث</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: serif;
+      direction: rtl;
+      background: #f7f7f7;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .item {
+      background: #fff;
+      padding: 16px;
+      margin-bottom: 14px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      cursor: pointer;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>احادیث</h1>
+
+  <div class="item" onclick="openHadith1()">📖 حدیث کتاب ۱</div>
+  <div class="item" onclick="openHadith2()">📖 حدیث کتاب ۲</div>
+
+  <script>
+    function openHadith1() {
+      window.location.href = "hadith-book-1.html";
+    }
+    function openHadith2() {
+      window.location.href = "hadith-book-2.html";
+    }
+  </script>
+
+</body>
+</html>
