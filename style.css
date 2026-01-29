@@ -65,8 +65,23 @@ body {
   display: none;
   min-height: 100vh;
 
+  background-image: url("images/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  text-align: center;
+  padding: 30px 15px;
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+  padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+
+
   /* 🔵 BACKGROUND IMAGE FOR BUTTON PAGE */
-  background-image: url("images/background.png");
+  background-image: url("images/bg.png");
 
   background-size: cover;
   background-position: center;
@@ -622,3 +637,4 @@ body::before {
   from { transform: scale(1); }
   to { transform: scale(1.05); }
 }
+
